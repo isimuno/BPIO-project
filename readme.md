@@ -1,5 +1,5 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
+<p style = "margine:5px"><a href = "https://app.sqldbm.com/SQLServer/Share/BHh3TMsczG_AblxCKBWU-UGFrngIE8md_DYjF4jNYw0"> Link na SQLDBM</a></p>
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
