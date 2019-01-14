@@ -21,9 +21,9 @@ class CreatePensionersTable extends Migration
             $table->integer('year_carer');
             $table-> decimal('amount_pension');
             $table->unsignedInteger('pension_type_id')->nullable();
-            $table->foreign('pension_type_id')->references('id')->on('pension_types');
+            $table->foreign('pension_type_id')->references('id')->on('pension_types')->onDelete('cascade');
             $table->unsignedInteger('place_id');
-            $table->foreign('place_id')->references('id')->on('places');
+            $table->foreign('place_id')->references('id')->on('places')->onDelete('cascade');
             $table->timestamps();
         });
     }

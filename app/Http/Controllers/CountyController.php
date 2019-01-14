@@ -91,6 +91,7 @@ class CountyController extends Controller
      */
     public function destroy($id)
     {
-        //
+        \App\County::destroy($id);
+        return redirect()->action('CountyController@index');
     }
 }

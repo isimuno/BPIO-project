@@ -93,6 +93,7 @@ class PlaceController extends Controller
      */
     public function destroy($id)
     {
-        //
+        \App\Place::destroy($id);
+        return redirect()->action('PlaceController@index');
     }
 }

@@ -28,6 +28,7 @@
       <td><?= $pensioner->amount_pension ?></td>
       <td><?= $pensioner->place->name ?></td>
       <td><?= $pensioner->PensionType->name ?></td>
+      <td><a href="/pensioners/delete/{{ $pensioner->id }}" class="btn btn-sm btn-danger">X</a></td>
     </tr>
   @endforeach
   </tbody>

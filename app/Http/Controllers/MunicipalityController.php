@@ -96,6 +96,7 @@ public function store(Request $request)
      */
     public function destroy($id)
     {
-        //
+        \App\Municipality::destroy($id);
+        return redirect()->action('MunicipalityController@index');
     }
 }

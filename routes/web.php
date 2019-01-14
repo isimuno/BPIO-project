@@ -37,3 +37,8 @@ Route::post('pension_types', 'PensionTypeController@store');
 Route::get('places/new', 'PlaceController@create');
 Route::post('places', 'PlaceController@store');;
 Route::get('/continents', 'ContinentController@index');
+Route::get('/counties/delete/{id}', 'CountyController@destroy');
+Route::get('/municipalities/delete/{id}', 'MunicipalityController@destroy');
+Route::get('/places/delete/{id}', 'PlaceController@destroy');
+Route::get('/pensioners/delete/{id}', 'PensionerController@destroy');
+Route::get('/pension_types/delete/{id}', 'PensionTypeController@destroy');

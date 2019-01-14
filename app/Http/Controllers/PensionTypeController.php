@@ -97,6 +97,7 @@ class PensionTypeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        \App\PensionType::destroy($id);
+        return redirect()->action('PensionTypeController@index');
     }
 }

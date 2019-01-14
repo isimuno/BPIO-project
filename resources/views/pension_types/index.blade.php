@@ -16,6 +16,7 @@
     <tr>
       <td><?= $PensionType->id ?></td>
       <td><?= $PensionType->name ?></td>
+      <td><a href="/pension_types/delete/{{ $PensionType->id }}" class="btn btn-sm btn-danger">X</a></td>
     </tr>
   @endforeach
   </tbody>
